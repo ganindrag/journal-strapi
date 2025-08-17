@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "journals",
+  "info": {
+    "singularName": "journal",
+    "pluralName": "journals",
+    "displayName": "journal"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "journal_id": {
+      "type": "uid",
+      "required": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "story": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}
